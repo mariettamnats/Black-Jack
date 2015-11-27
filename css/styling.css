@@ -1,0 +1,53 @@
+		#maincontainer {
+			width: 80%;
+		}
+		
+		img {
+			max-height: 225px;
+			min-width: 325px;
+		}
+
+		body {
+			font-family: Verdana, Geneva, sans-serif;
+			margin: 45px 0 0 100px;
+		}
+		
+		h1 {
+			font-size: 140%;
+			font-weight: bold;
+		}
+		
+		#deal {
+			position: relative;
+			bottom: 45px;
+			right: 150px;
+			padding: 5px 40px;
+		}
+	
+		#container {
+			width: 50%;
+			min-width: 350px;
+			padding: 10px;
+			line-height: 120%;		
+		}
+	
+		#myCards {
+			float: left;
+			padding-left: 40px;
+		}
+		
+		#dealersCards {
+			float: right;
+			padding-right: 30px;
+		}
+
+		#outcome {
+			font-size: 150%;
+			line-height: 170%;
+		}
+		
+		#hit,#stay {
+			padding: 2px;
+			width: 50px;
+		}
+		
