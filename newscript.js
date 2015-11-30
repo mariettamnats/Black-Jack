@@ -5,6 +5,29 @@ function myCards() {
 						document.getElementById("nscore").innerHTML=" ";
 						document.getElementById("card3").innerHTML=" ";			
 					
+
+
+var cards = [ king, ace, two, three, four, five, six, seven, eight, nine, ten, jack, queen ]
+
+var king = {name: "King", value: 10};
+var ace = {name: "Ace", value: 1};
+var two = {name: "2", value: 2};
+var three = {name: "3", value: 3};
+var four = {name: "4", value: 4};
+var five = {name: "5", value: 5};
+var six = {name: "6", value: 6};
+var seven = {name: "7", value: 7};
+var eight = {name: "8", value: 8};
+var nine = {name: "9", value: 9};
+var ten = {name: "10", value: 10};
+var jack = {name: "Jack", value: 10};
+var queen = {name: "Queen", value: 10};
+
+
+
+
+/*
+
 	function Card(name,value) {
 		this.name=name;
 		this.value=value;
@@ -24,7 +47,7 @@ function myCards() {
 	var card[11] = new Card("Jack",10);
 	var card[12] = new Card("Queen",10);
 
-for (var i = 0; i > 12; i++)
+for (var i = 0; i < 12; i++)
 	this.value = Math.floor(Math.random() * i);
 			return value();
 	};
@@ -36,23 +59,9 @@ document.getElementById("card1").innerHTML=ucard;
 
 };
 
-var cards = [ king, ace, two, three, four, five, six, seven, eight, nine, ten, jack, queen ]
 
-var king = {name: "King", value: 10};
-var ace = {name: "Ace", value: 1};
-var two = {name: "2", value: 2};
-var three = {name: "3", value: 3};
-var four = {name: "4", value: 4};
-var five = {name: "5", value: 5};
-var six = {name: "6", value: 6};
-var seven = {name: "7", value: 7};
-var eight = {name: "8", value: 8};
-var nine = {name: "9", value: 9};
-var ten = {name: "10", value: 10};
-var jack = {name: "Jack", value: 10};
-var queen = {name: "Queen", value: 10};
 
-/*
+
 var deal = function(card) {
 	var card = Math.floor(Math.random() * 13 + 1);
 		return card;
